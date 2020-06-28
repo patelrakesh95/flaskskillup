@@ -1,0 +1,13 @@
+mkdir {project-name}
+cd {project-name}
+#create virtual environment for run flask app
+python/python3 -m venv venv
+source venv/bin/activate
+#display list of library added
+pip
+pip install flask
+#set environment type development/production
+export FLASK_ENV=development
+#set python file for application run
+export FLASK_APP="python file name"
+
